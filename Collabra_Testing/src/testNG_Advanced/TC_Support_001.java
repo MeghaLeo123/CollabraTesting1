@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TC_Support_001 {
 	
-	@DataProvider
+	@DataProvider 
 	public String[] sendMobileInfo() {
 		String[] arr = {"iphone","redmi","poco","oneplus"};
 				return arr;
