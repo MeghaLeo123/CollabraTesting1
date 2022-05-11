@@ -5,23 +5,23 @@
       <![CDATA[Browser window is maximized successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-29T13:14:06 IST" name="Default suite" finished-at="2022-03-29T13:14:12 IST" duration-ms="6258">
+  <suite started-at="2022-04-15T22:08:07 IST" name="Default suite" finished-at="2022-04-15T22:08:11 IST" duration-ms="3783">
     <groups>
     </groups>
-    <test started-at="2022-03-29T13:14:06 IST" name="Default test" finished-at="2022-03-29T13:14:12 IST" duration-ms="6258">
+    <test started-at="2022-04-15T22:08:07 IST" name="Default test" finished-at="2022-04-15T22:08:11 IST" duration-ms="3783">
       <class name="testCases.TestCase_1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-03-29T13:14:06 IST" name="setUp" finished-at="2022-03-29T13:14:06 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-04-15T22:08:07 IST" name="setUp" finished-at="2022-04-15T22:08:07 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp1()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-03-29T13:14:06 IST" name="setUp1" finished-at="2022-03-29T13:14:12 IST" duration-ms="6176" status="PASS">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-04-15T22:08:07 IST" name="setUp1" finished-at="2022-04-15T22:08:11 IST" duration-ms="3715" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser window is maximized successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method is-config="true" signature="setUp2()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-03-29T13:14:12 IST" name="setUp2" finished-at="2022-03-29T13:14:12 IST" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="setUp2()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-04-15T22:08:11 IST" name="setUp2" finished-at="2022-04-15T22:08:11 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "genericLiberary.BaseClass.driver" is null]]>
@@ -67,7 +67,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp2 -->
-        <test-method signature="report1()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-03-29T13:14:12 IST" name="report1" finished-at="2022-03-29T13:14:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="report1()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-04-15T22:08:11 IST" name="report1" finished-at="2022-04-15T22:08:11 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "genericLiberary.BaseClass.driver" is null]]>
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-03-29T13:14:12 IST" name="tearDown" finished-at="2022-03-29T13:14:12 IST" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_1@11bd0f3b]" started-at="2022-04-15T22:08:11 IST" name="tearDown" finished-at="2022-04-15T22:08:11 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
